@@ -58,3 +58,85 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
+}
+
+form > div.campo{
+    background-color: #BF930D;
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label{
+    display: none;
+}
+
+form #isenha {
+    margin: 2px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+}
+
+form #ilogin{
+    margin: 2px;
+    height: 100%;
+    border-radius: 10px;
+    border: none;
+    text-align: center;
+    
+
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #B0A99C;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+form > input[type=submit]:hover{
+    background-color: #7c776d ;
+    color: white;
+}
+
+form > a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 7px;
+    background-color: white ;
+    border-radius: 5px;
+    border: 1px solid #969087;
+    text-decoration: none;
+    color: #69655c;
+    margin-top: 5px;
+}
+
+form > a.botao:hover{
+    background-color: #968e82 ;
+    color: #e0dac3;
+}
+
+form > a.botao > span{
+    font-size: 0.8em;
+}
